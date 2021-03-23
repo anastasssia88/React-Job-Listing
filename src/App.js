@@ -8,8 +8,6 @@ function App() {
 
   useEffect(() => setJobs(data), []);
 
-
-// ? I don't understand how we filter items
   const filterFunction = (job) => {
 
     if(filters.length === 0) {
